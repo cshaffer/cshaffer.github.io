@@ -1,3 +1,16 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+# Site settings
+title: Chad Shaffer
+email: chad.russell.shaffer@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Chad Shaffer's dumping ground for his enthusiasms, including but not limited
+  to: programming, fitness, fatherhood, beer, literature, film, and standup
+  comedy
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://chadshaffer.com" # the base hostname & protocol for your site
+twitter_username: chadrshaffer
+github_username: cshaffer
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
