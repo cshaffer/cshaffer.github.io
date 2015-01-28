@@ -2,7 +2,6 @@
 layout: post
 title:  "Blog Bootstrapped"
 date:   2015-01-28 10:30:53
-categories: misc
 tags: jekyll github
 ---
 Hello Everyone!

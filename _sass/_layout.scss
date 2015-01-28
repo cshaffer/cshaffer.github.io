@@ -7,6 +7,35 @@
     margin-top: 3px;
 }
 
+.tags {
+  margin-left: 0;
+
+  .tag {
+    display: inline;
+    background-color: rgb(119, 119, 119);
+    border-bottom-left-radius: 2.625px;
+    border-bottom-right-radius: 2.625px;
+    border-top-left-radius: 2.625px;
+    border-top-right-radius: 2.625px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: auto;
+    line-height: 10px;
+    padding-bottom: 3.1500000953674316px;
+    padding-left: 6.300000190734863px;
+    padding-right: 6.300000190734863px;
+    padding-top: 2.0999999046325684px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+  }
+}
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
