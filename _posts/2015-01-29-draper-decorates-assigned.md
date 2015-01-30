@@ -67,7 +67,7 @@ end
 Draper adds a helper method to access a decorated version of your assigned
 instance variable for you, providing the added benefit of being a little more
 ecapsulation-friendly by using the helper `widget` instead of directly
-accessing `@widget` in my views.
+accessing `@widget` in your views.
 
 If you're like me, this makes you happy.
 
