@@ -6,16 +6,16 @@ tags: ruby rails draper DRY
 ---
 If you're like me you hate using Rails helpers to write view specific logic.
 
-Also, if you're like me, you use the [draper gem][draper] to alleviate this
-hatred.
+Also, if you're like me, you use the [draper gem][draper] to avoid this hatred.
 
-In the [README][draper-readme] there is some wise advice to hold off on
-decorating your objects until the last minute, since the whole purpose
-of decorating them is to add some sweet methods to use in your view.
+In the [draper README][draper-readme] there is some wise advice to hold off on
+decorating your objects until the last minute in your controller action. This
+makes sense, since the whole purpose of decorating these objects is to add some
+sweet methods to use specifically in your views.
 
-Because of this, if you're like me, you were repeating yourself all over your
-controllers by explicitly decorating the same model in each action like
-this:
+In an attempt to heed this advice, if you were like me, you were repeating
+yourself all over your controllers by explicitly decorating the same model
+in each action, like this:
 
 {% highlight ruby %}
 # app/controllers/widgets_controller.rb
@@ -40,7 +40,7 @@ end
 {% endhighlight %}
 
 Silly me, I should have kept reading the draper documentation and got to
-the part about `decorates_assigned` which would instead let me do this:
+the part about `decorates_assigned` which would let me do this instead:
 
 {% highlight ruby %}
 # app/controllers/widgets_controller.rb
@@ -64,10 +64,12 @@ def update
 end
 {% endhighlight %}
 
-With the added benefit of being a little more ecapsulation friendly by
-not directly accessing the instance variable `@widget` in my views.
+Draper adds a helper method to access a decorated version of your assigned
+instance variable for you, providing the added benefit of being a little more
+ecapsulation-friendly by using the helper `widget` instead of directly
+accessing `@widget` in my views.
 
-If you're like me, you _might_ have learned your lesson.
+If you're like me, this makes you happy.
 
 [draper]: https://github.com/drapergem/draper
 [draper-readme]: https://github.com/drapergem/draper#when-to-decorate-objects
