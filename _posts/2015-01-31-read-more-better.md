@@ -18,7 +18,8 @@ But how do you decide what is the _best_ book? Well, luckily lots of smart
 people read books, and they all have opinions they're willing to share.
 
 In fact, as is the case most of the time, a fellow developer already had the
-same idea already and did all the work for me.
+same idea already and did all the work for me. The best part is, he wrote it
+in Rails (high five!).
 
 At [thegreatestbooks.org][greatest-books] you can find a list that combines
 hundreds of "greatest books ever" lists. To me, this is the best way to
