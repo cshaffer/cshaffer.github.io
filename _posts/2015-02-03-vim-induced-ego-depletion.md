@@ -18,7 +18,7 @@ manage this, and often you'll find their .vimrc is the file they're messing
 with the most. Tools like [vundle][vundle] and [pathogen][pathogen] help
 significantly, but they can't solve all the problems.
 
-When I jumped on the Vim bandwagon I was enamored by all the choices available
+When I jumped on the Vim bandwagon, I was enamored by all the choices available
 to me. I imagined a world where my editor and I were so optimized for each
 other that we were finishing each other's sentences, covering for each other
 when we slacked off, and transcending what either of us could achieve on our
@@ -39,14 +39,16 @@ time to weigh all the options and do all the work. This leaves me enough time
 to work on other problems I'm good at or that haven't been solved yet.
 
 [Janus][janus] to the rescue. Lots of people with tons of experience have
-vetted and continue to vet the best Vim plugins and bundled it for all of our
-convenience. It's easy to keep up to date (just run `rake` in your `~/.vim`
-folder every so often). And for that rare case where small tweaks are still
-needed [you're still covered][janus-custom].
+vetted and continue to vet the best Vim plugins and bundled them all up for
+everyone's convenience. It's easy to keep up to date (just run `rake` in your
+`~/.vim` folder every so often). And for that rare case where small tweaks are
+still needed [you're still covered][janus-custom].
 
 Ego repleted. Street cred salvaged.
 
 [vim-scripts]: http://www.vim.org/scripts/script_search_results.php
+[vundle]: https://github.com/gmarik/Vundle.vim
+[pathogen]: https://github.com/tpope/vim-pathogen
 [ego_depletion]: https://en.wikipedia.org/wiki/Ego_depletion
 [sublime]: http://www.sublimetext.com
 [janus]: https://github.com/carlhuda/janus
